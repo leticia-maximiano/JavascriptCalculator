@@ -1,0 +1,30 @@
+#calculator {
+  display: flex;
+  width: 300px;
+  border: 1px solid #686868;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 50px auto;
+  flex-direction: column;
+}
+
+#calculator > span {
+  flex: 1;
+  display: flex;
+}
+
+#reader {
+  flex: 1;
+  height: 25px;
+  padding: 0 5px;
+  text-align: right;
+  margin-bottom: 15px;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+#buttons {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(4, 1fr);
+}
